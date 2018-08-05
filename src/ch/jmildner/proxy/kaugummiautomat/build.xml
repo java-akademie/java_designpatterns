@@ -1,0 +1,63 @@
+<!DOCTYPE project>
+<project name="kaugummiautomat" default="copyToJars">
+
+	<property name="pname" value="kaugummiautomat" />
+	<property name="classname" value="ch.jmildner.proxy.kaugummiautomat.KaugummiAutomat" />
+
+	<path id="cpath">
+
+		<pathelement location="c:/jclasses" />
+		<pathelement location="c:/jars/mytools.jar" />
+
+	</path>
+
+
+	<target name="clean">
+
+		<delete dir="./classes" />
+		<delete dir="./${pname}" />
+		<delete dir="./classes/${pname}" />
+		<mkdir dir="./classes" />
+
+	</target>
+
+
+	<target name="compile" depends="clean">
+
+		<javac srcdir="." destdir="./classes">
+			<classpath refid="cpath" />
+		</javac>
+
+	</target>
+
+
+	<target name="rmiCompile" depends="compile">
+
+		<rmic base="./classes" stubversion="1.2" classname="${classname}">
+			<classpath>
+				<pathelement location="./classes" />
+			</classpath>
+		</rmic>
+
+	</target>
+
+
+	<target name="makeTheJarFile" depends="rmiCompile">
+		<mkdir dir="./tmp" />
+
+		<jar jarfile="./tmp/${pname}.jar">
+			<fileset dir="./classes/">
+				<include name="**" />
+			</fileset>
+		</jar>
+
+		<delete dir="./classes" />
+	</target>
+
+
+	<target name="copyToJars" depends="makeTheJarFile">
+		<copy file="./tmp/${pname}.jar" todir="c:/jars" />
+		<delete dir="./tmp" />
+	</target>
+
+</project>

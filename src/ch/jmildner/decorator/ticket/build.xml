@@ -1,0 +1,49 @@
+<!DOCTYPE project>
+<project name="decorator-auftrag" default="run" basedir=".">
+
+	<property name="src" value="." />
+	<property name="bin" value="./bin" />
+	<property name="prg" value="ch.jmildner.decorator.ticket.TestTicket" />
+
+
+	<target name="clean">
+		<delete dir="${bin}" />
+		<delete file="ticket.jar" />
+	</target>
+
+
+	<target name="prepare" depends="clean">
+		<mkdir dir="${bin}" />
+	</target>
+
+
+
+	<target name="compile" depends="prepare">
+
+		<javac srcdir="${src}" destdir="${bin}">
+			<classpath>
+				<pathelement location="${bin}" />
+				<!--pathelement location="c:/mytools.jar" /-->
+			</classpath>
+		</javac>
+
+		<jar jarfile="ticket.jar" manifest="mainclass.mf">
+			<fileset dir="${bin}" />
+		</jar>
+
+		<delete dir="${bin}" />
+	</target>
+
+
+
+	<target name="run" depends="compile">
+		<java classname="${prg}" fork="yes">
+			<classpath>
+				<!--pathelement location="${bin}" /-->
+				<pathelement location="./ticket.jar" />
+			</classpath>
+		</java>
+	</target>
+
+
+</project>

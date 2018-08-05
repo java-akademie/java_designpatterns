@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" id="merkurjohanndesignpatterns0" metadata="nsuml-1.4" initialized="true" showWireOptions="5" scrolledY="-2">
+  <children xsi:type="editmodel:ClassEditModel" location="283,79" size="167,175" targetConnections="//@children.1/@sourceConnections.0" id="merkurjohanndesignpatterns19" runTimeClassModel="merkurjohanndesignpatterns21;merkurjohanndesignpatterns22;merkurjohanndesignpatterns26;merkurjohanndesignpatterns20;merkurjohanndesignpatterns31;merkurjohanndesignpatterns23;merkurjohanndesignpatterns29">
+    <children xsi:type="editmodel:CompartmentEditModel" size="144,36">
+      <children xsi:type="editmodel:AttributeEditModel" id="merkurjohanndesignpatterns20"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="merkurjohanndesignpatterns21"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="merkurjohanndesignpatterns22"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,54">
+      <children xsi:type="editmodel:MethodEditModel" id="merkurjohanndesignpatterns23"/>
+      <children xsi:type="editmodel:MethodEditModel" id="merkurjohanndesignpatterns26"/>
+      <children xsi:type="editmodel:MethodEditModel" id="merkurjohanndesignpatterns29"/>
+      <children xsi:type="editmodel:MethodEditModel" id="merkurjohanndesignpatterns31"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="merkurjohanndesignpatterns48" connectionRouterKind="Manhattan" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="64,284" size="133,175" id="merkurjohanndesignpatterns1" runTimeClassModel="merkurjohanndesignpatterns103;merkurjohanndesignpatterns120;merkurjohanndesignpatterns2;merkurjohanndesignpatterns107;merkurjohanndesignpatterns111;merkurjohanndesignpatterns101;merkurjohanndesignpatterns105">
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,90">
+      <children xsi:type="editmodel:AttributeEditModel" id="merkurjohanndesignpatterns103"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="merkurjohanndesignpatterns105"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="merkurjohanndesignpatterns107"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="merkurjohanndesignpatterns101"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="merkurjohanndesignpatterns120"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="74,18">
+      <children xsi:type="editmodel:MethodEditModel" id="merkurjohanndesignpatterns2"/>
+      <children xsi:type="editmodel:MethodEditModel" id="merkurjohanndesignpatterns111"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="merkurjohanndesignpatterns113" connectionRouterKind="Manhattan" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-2" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="merkurjohanndesignpatterns115" connectionRouterKind="Manhattan" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.1/@children.1" sourceEnd="//@children.1/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-2" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="38,130" size="177,121" targetConnections="//@children.1/@sourceConnections.1" id="merkurjohanndesignpatterns15" runTimeClassModel="merkurjohanndesignpatterns82;merkurjohanndesignpatterns61;merkurjohanndesignpatterns89;merkurjohanndesignpatterns63">
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:AttributeEditModel" id="merkurjohanndesignpatterns82"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,18">
+      <children xsi:type="editmodel:MethodEditModel" id="merkurjohanndesignpatterns61"/>
+      <children xsi:type="editmodel:MethodEditModel" id="merkurjohanndesignpatterns89"/>
+      <children xsi:type="editmodel:MethodEditModel" id="merkurjohanndesignpatterns63"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="merkurjohanndesignpatterns16" connectionRouterKind="Manual" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-2,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="56,10" size="137,81" stereotype="interface" targetConnections="//@children.0/@sourceConnections.0 //@children.2/@sourceConnections.0" id="merkurjohanndesignpatterns13" runTimeClassModel="merkurjohanndesignpatterns56">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,18">
+      <children xsi:type="editmodel:MethodEditModel" id="merkurjohanndesignpatterns56"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showInterfaceStereotype="true" showClassStereotype="true" showPackageStereotype="true"/>
+</editmodel:ClassDiagramEditModel>

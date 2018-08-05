@@ -1,0 +1,1 @@
+Main-Class: ch.jmildner.state.kaugummiautomat1.SwingFrame
